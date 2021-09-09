@@ -390,10 +390,10 @@
               >
                 <h4 class="sr-only">Infinite Domain</h4>
                 <div class="sm:flex sm:items-start">
-                  <img src="/assets/ucsd-seal.svg" width="42"/>
+                  <img src="/assets/ucsd-seal.svg" width="42" class="inline-flex sm:block"/>
                   <div class="mt-3 sm:mt-0 sm:ml-4">
                     <div
-                      class="text-2xl font-medium pt-1 text-gray-900 text-left"
+                      class="text-2xl font-medium pt-1 text-gray-900 text-center sm:text-left"
                     >
                       UCSD Exhibition Project
                     </div>
