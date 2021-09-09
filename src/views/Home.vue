@@ -378,7 +378,7 @@
                 </div>
               </div>
             </div> 
-            <!-- <div class="mt-5">
+            <div class="mt-5">
               <div
                 class="
                   rounded-md
@@ -390,7 +390,7 @@
               >
                 <h4 class="sr-only">Infinite Domain</h4>
                 <div class="sm:flex sm:items-start">
-                  <img src="/assets/cg-logo.png" width="42"/>
+                  <img src="/assets/ucsd-seal.svg" width="42"/>
                   <div class="mt-3 sm:mt-0 sm:ml-4">
                     <div
                       class="text-2xl font-medium pt-1 text-gray-900 text-left"
@@ -442,7 +442,7 @@
                   </button>
                 </div>
               </div>
-            </div>                                     -->
+            </div>                                    
           </div>
         </div>
       </div>
