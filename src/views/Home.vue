@@ -1,15 +1,15 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <div class="bg-gray-600 h-screen min-h-full">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="h-full min-h-screen bg-gray-600">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
       <!-- We've used 3xl here, but feel free to try other max-widths based on your needs -->
-      <div class="max-w-3xl mx-auto py-16">
-        <div class="bg-white shadow rounded-lg">
-          <div class="px-4 py-5 sm:p-6 text-center">
+      <div class="max-w-3xl py-16 mx-auto">
+        <div class="bg-white rounded-lg shadow">
+          <div class="px-4 py-5 text-center sm:p-6">
             <div class="flex justify-center pb-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-8 w-8"
+                class="w-8 h-8"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -23,25 +23,19 @@
             <h2 class="text-2xl font-medium text-gray-900">
               Jeff's Portfolio is Under Construction
             </h2>
-            <h3 class="text-lg font-medium text-gray-900 pt-3">
+            <h3 class="pt-3 text-lg font-medium text-gray-900">
               In the meantime, here are some relevant links:
             </h3>
             <div class="mt-5">
               <div
-                class="
-                  rounded-md
-                  bg-gray-100
-                  px-6
-                  py-5
-                  sm:flex sm:items-start sm:justify-between
-                "
+                class="px-6 py-5 bg-gray-100 rounded-md sm:flex sm:items-start sm:justify-between"
               >
                 <h4 class="sr-only">LinkedIn</h4>
                 <div class="sm:flex sm:items-start">
                   <img src="/assets/linkedin.svg" class="inline-flex sm:block"/>
                   <div class="mt-3 sm:mt-0 sm:ml-4">
                     <div
-                      class="text-2xl font-medium pt-1 text-gray-900 text-center sm:text-left"
+                      class="pt-1 text-2xl font-medium text-center text-gray-900 sm:text-left"
                     >
                       /uxjeff
                     </div>
@@ -54,28 +48,11 @@
                   <button
                     onclick=" window.open('https://www.linkedin.com/in/uxjeff/','_blank')"
                     type="button"
-                    class="
-                      inline-flex
-                      items-center
-                      px-4
-                      py-2
-                      border border-gray-300
-                      shadow-sm
-                      font-medium
-                      rounded-md
-                      text-gray-700
-                      bg-white
-                      hover:bg-gray-50
-                      focus:outline-none
-                      focus:ring-2
-                      focus:ring-offset-2
-                      focus:ring-indigo-500
-                      sm:text-sm
-                    "
+                    class="inline-flex items-center px-4 py-2 font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-6 w-6"
+                      class="w-6 h-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -91,21 +68,15 @@
                 </div>
               </div>
             </div>
-            <div class="mt-5 pb-5">
+            <div class="pb-5 mt-5">
               <div
-                class="
-                  rounded-md
-                  bg-gray-100
-                  px-6
-                  py-5
-                  sm:flex sm:items-start sm:justify-between
-                "
+                class="px-6 py-5 bg-gray-100 rounded-md sm:flex sm:items-start sm:justify-between"
               >
                 <h4 class="sr-only">Email</h4>
                 <div class="sm:flex sm:items-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-10 w-10 inline-flex sm:block"
+                    class="inline-flex w-10 h-10 sm:block"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -118,7 +89,7 @@
                   </svg>
                   <div class="mt-3 sm:mt-0 sm:ml-4">
                     <div
-                      class="text-2xl font-medium pt-1 text-gray-900 text-center sm:text-left"
+                      class="pt-1 text-2xl font-medium text-center text-gray-900 sm:text-left"
                     >
                       jeff@uxjeff.com
                     </div>
@@ -131,28 +102,11 @@
                   <button
                     onclick=" window.open('mailto:jeff@uxjeff.com?subject=Hi Jeff!')"
                     type="button"
-                    class="
-                      inline-flex
-                      items-center
-                      px-4
-                      py-2
-                      border border-gray-300
-                      shadow-sm
-                      font-medium
-                      rounded-md
-                      text-gray-700
-                      bg-white
-                      hover:bg-gray-50
-                      focus:outline-none
-                      focus:ring-2
-                      focus:ring-offset-2
-                      focus:ring-indigo-500
-                      sm:text-sm
-                    "
+                    class="inline-flex items-center px-4 py-2 font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-6 w-6"
+                      class="w-6 h-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -177,7 +131,7 @@
               </div>
               <div class="relative flex justify-center">
                 <span
-                  class="px-3 bg-white text-lg font-medium text-gray-900"
+                  class="px-3 text-lg font-medium text-gray-900 bg-white"
                 >
                   Projects
                 </span>
@@ -185,20 +139,14 @@
             </div>
             <div class="mt-5">
               <div
-                class="
-                  rounded-md
-                  bg-gray-100
-                  px-6
-                  py-5
-                  sm:flex sm:items-start sm:justify-between
-                "
+                class="px-6 py-5 bg-gray-100 rounded-md sm:flex sm:items-start sm:justify-between"
               >
                 <h4 class="sr-only">CG Sign Lab</h4>
                 <div class="sm:flex sm:items-start">
                   <img src="/assets/cg-logo.png" width="42" class="inline-flex sm:block"/>
                   <div class="mt-3 sm:mt-0 sm:ml-4">
                     <div
-                      class="text-2xl font-medium pt-1 text-gray-900 text-center sm:text-left"
+                      class="pt-1 text-2xl font-medium text-center text-gray-900 sm:text-left"
                     >
                       UX/UI Dev @ CG Sign Lab
                     </div>
@@ -211,28 +159,11 @@
                   <button
                     onclick=" window.open('https://www.cgsignlab.com','_blank')"
                     type="button"
-                    class="
-                      inline-flex
-                      items-center
-                      px-4
-                      py-2
-                      border border-gray-300
-                      shadow-sm
-                      font-medium
-                      rounded-md
-                      text-gray-700
-                      bg-white
-                      hover:bg-gray-50
-                      focus:outline-none
-                      focus:ring-2
-                      focus:ring-offset-2
-                      focus:ring-indigo-500
-                      sm:text-sm
-                    "
+                    class="inline-flex items-center px-4 py-2 font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-6 w-6"
+                      class="w-6 h-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -250,20 +181,14 @@
             </div>
             <div class="mt-5">
               <div
-                class="
-                  rounded-md
-                  bg-gray-100
-                  px-6
-                  py-5
-                  sm:flex sm:items-start sm:justify-between
-                "
+                class="px-6 py-5 bg-gray-100 rounded-md sm:flex sm:items-start sm:justify-between"
               >
                 <h4 class="sr-only">CG on Demand</h4>
                 <div class="sm:flex sm:items-start">
                   <img src="/assets/cg-logo.png" width="42" class="inline-flex sm:block"/>
                   <div class="mt-3 sm:mt-0 sm:ml-4">
                     <div
-                      class="text-2xl font-medium pt-1 text-gray-900 text-center sm:text-left"
+                      class="pt-1 text-2xl font-medium text-center text-gray-900 sm:text-left"
                     >
                       UX/UI Dev @ CG on Demand
                     </div>
@@ -276,28 +201,11 @@
                   <button
                     onclick=" window.open('https://www.cgondemand.com','_blank')"
                     type="button"
-                    class="
-                      inline-flex
-                      items-center
-                      px-4
-                      py-2
-                      border border-gray-300
-                      shadow-sm
-                      font-medium
-                      rounded-md
-                      text-gray-700
-                      bg-white
-                      hover:bg-gray-50
-                      focus:outline-none
-                      focus:ring-2
-                      focus:ring-offset-2
-                      focus:ring-indigo-500
-                      sm:text-sm
-                    "
+                    class="inline-flex items-center px-4 py-2 font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-6 w-6"
+                      class="w-6 h-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -315,20 +223,14 @@
             </div>  
             <div class="mt-5">
               <div
-                class="
-                  rounded-md
-                  bg-gray-100
-                  px-6
-                  py-5
-                  sm:flex sm:items-start sm:justify-between
-                "
+                class="px-6 py-5 bg-gray-100 rounded-md sm:flex sm:items-start sm:justify-between"
               >
                 <h4 class="sr-only">CG Pro Prints</h4>
                 <div class="sm:flex sm:items-start">
                   <img src="/assets/cg-logo.png" width="42" class="inline-flex sm:block"/>
                   <div class="mt-3 sm:mt-0 sm:ml-4">
                     <div
-                      class="text-2xl font-medium pt-1 text-gray-900 text-center sm:text-left"
+                      class="pt-1 text-2xl font-medium text-center text-gray-900 sm:text-left"
                     >
                       UX/UI Dev @ CG Pro Prints
                     </div>
@@ -341,28 +243,11 @@
                   <button
                     onclick=" window.open('https://www.cgproprints.com','_blank')"
                     type="button"
-                    class="
-                      inline-flex
-                      items-center
-                      px-4
-                      py-2
-                      border border-gray-300
-                      shadow-sm
-                      font-medium
-                      rounded-md
-                      text-gray-700
-                      bg-white
-                      hover:bg-gray-50
-                      focus:outline-none
-                      focus:ring-2
-                      focus:ring-offset-2
-                      focus:ring-indigo-500
-                      sm:text-sm
-                    "
+                    class="inline-flex items-center px-4 py-2 font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-6 w-6"
+                      class="w-6 h-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -380,20 +265,14 @@
             </div> 
             <div class="mt-5">
               <div
-                class="
-                  rounded-md
-                  bg-gray-100
-                  px-6
-                  py-5
-                  sm:flex sm:items-start sm:justify-between
-                "
+                class="px-6 py-5 bg-gray-100 rounded-md sm:flex sm:items-start sm:justify-between"
               >
                 <h4 class="sr-only">Infinite Domain</h4>
                 <div class="sm:flex sm:items-start">
                   <img src="/assets/ucsd-seal.svg" width="42" class="inline-flex sm:block"/>
                   <div class="mt-3 sm:mt-0 sm:ml-4">
                     <div
-                      class="text-2xl font-medium pt-1 text-gray-900 text-center sm:text-left"
+                      class="pt-1 text-2xl font-medium text-center text-gray-900 sm:text-left"
                     >
                       UCSD Exhibition Project
                     </div>
@@ -406,28 +285,11 @@
                   <button
                     onclick=" window.open('https://infinitedomain.herokuapp.com/','_blank')"
                     type="button"
-                    class="
-                      inline-flex
-                      items-center
-                      px-4
-                      py-2
-                      border border-gray-300
-                      shadow-sm
-                      font-medium
-                      rounded-md
-                      text-gray-700
-                      bg-white
-                      hover:bg-gray-50
-                      focus:outline-none
-                      focus:ring-2
-                      focus:ring-offset-2
-                      focus:ring-indigo-500
-                      sm:text-sm
-                    "
+                    class="inline-flex items-center px-4 py-2 font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-6 w-6"
+                      class="w-6 h-6"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
