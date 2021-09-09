@@ -404,7 +404,7 @@
                 </div>
                 <div class="mt-4 sm:mt-0 sm:ml-6 sm:flex-shrink-0">
                   <button
-                    onclick=" window.open('https://www.infinitedoma.in','_blank')"
+                    onclick=" window.open('https://infinitedomain.herokuapp.com/','_blank')"
                     type="button"
                     class="
                       inline-flex
