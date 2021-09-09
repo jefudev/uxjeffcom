@@ -43,7 +43,7 @@ yarn build
 yarn serve
 ```
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/web2033/vite-vue3-tailwind-starter)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4813a400-8d40-4d91-8c6f-22a23c40cb7c/deploy-status)](https://app.netlify.com/sites/heuristic-mccarthy-87f704/deploys)
 
 #### Bonus links
 - [Enabling https on localhost](https://github.com/web2033/vite-vue3-tailwind-starter/discussions/112) (dev notes)
