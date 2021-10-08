@@ -1,0 +1,16 @@
+/**
+ * Enable smooth scrolling on the whole document
+ */
+html {
+  scroll-behavior: smooth;
+}
+
+.copy__height {
+  height: 486px;
+}
+
+@media (max-width: 1280px) {
+  .copy__height {
+    height: auto;
+  }
+}
