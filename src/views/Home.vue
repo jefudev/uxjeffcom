@@ -151,7 +151,7 @@
               <span
                 class="flex items-center justify-center w-12 h-12 bg-blue-600 rounded-md "
               >
-                <img src="assets/icon-diamond.svg" class="w-auto h-6" />
+                <img src="/assets/icon-diamond.svg" class="w-auto h-6" />
               </span>
             </div>
             <div class="mt-6 copy__height">
@@ -191,7 +191,7 @@
           >
             <img
               class="w-full shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-              src="assets/cgproprints.png"
+              src="/assets/cgproprints.png"
               alt="CG Pro Prints Builder"
             />
           </div>
@@ -211,7 +211,7 @@
               <span
                 class="flex items-center justify-center w-12 h-12 bg-blue-600 rounded-md "
               >
-                <img src="assets/icon-lightbulb.svg" class="w-auto h-6" />
+                <img src="/assets/icon-lightbulb.svg" class="w-auto h-6" />
               </span>
             </div>
             <div class="mt-6 copy__height">
@@ -275,7 +275,7 @@
               <span
                 class="flex items-center justify-center w-12 h-12 bg-blue-600 rounded-md "
               >
-                <img src="assets/icon-lightning.svg" class="w-auto h-6" />
+                <img src="/assets/icon-lightning.svg" class="w-auto h-6" />
               </span>
             </div>
             <div class="mt-6 copy__height">
@@ -334,7 +334,7 @@
               <span
                 class="flex items-center justify-center w-12 h-12 bg-blue-600 rounded-md "
               >
-                <img src="assets/icon-eye.svg" class="w-auto h-6" />
+                <img src="/assets/icon-eye.svg" class="w-auto h-6" />
               </span>
             </div>
             <div class="mt-6 copy__height">
