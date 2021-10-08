@@ -442,7 +442,7 @@ const supportLinks = [
     linkTxt: "See Work",
     description:
       "Jeff handles the entire product life-cycle, from user research to design to prototyping to testing and beyond. Jeff can craft thoughtful flows that reflect your business goals, build wireframes and prototypes using the latest tools, and run A/B tests with data-driven results.",
-    icon: "/assets/pattern_1.svg",
+    icon: "../assets/pattern_1.svg",
   },
   {
     name: "Web Developer",
@@ -450,7 +450,7 @@ const supportLinks = [
     linkTxt: "See Work",
     description:
       "With over 5 years of front-end experience, Jeff has a strong understanding of responsive design and is comfortable working with HTML, CSS, and Javascript to build beautiful, dynamic websites that capture the heart of your brand.",
-    icon: "/assets/pattern_2.svg",
+    icon: "../assets/pattern_2.svg",
   },
   {
     name: "Let's chat!",
@@ -458,7 +458,7 @@ const supportLinks = [
     linkTxt: "Send Message",
     description:
       "The Internet is a place of endless possibilities, and there's always something exciting to discover. Please reach out! You never know what you’ll find...",
-    icon: "/assets/pattern_3.svg",
+    icon: "../assets/pattern_3.svg",
   },
 ];
 const footerNavigation = [
