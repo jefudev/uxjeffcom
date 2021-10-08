@@ -100,7 +100,7 @@
             <div
               class="absolute top-0 inline-block p-2 transform -translate-y-1/2 bg-blue-600 shadow-lg rounded-xl"
             >
-              <img :src="'assets/' + link.icon" class="w-auto h-14" />
+              <img :src="'/assets/' + link.icon" class="w-auto h-14" />
               <!-- <component
                 :is="link.icon"
                 class="w-6 h-6 text-white"
