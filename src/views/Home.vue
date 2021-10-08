@@ -3,7 +3,7 @@
   <header class="bg-blue-600">
     <nav class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8" aria-label="Top">
       <div
-        class="flex items-center justify-between w-full py-4 border-b border-blue-500 lg:border-none"
+        class="flex items-center justify-between w-full py-4 border-b border-blue-500  lg:border-none"
       >
         <div class="flex items-center">
           <a href="#">
@@ -33,7 +33,7 @@
           > -->
           <a
             href="mailto:jeff@uxjeff.com"
-            class="inline-block px-4 py-2 text-base font-medium text-blue-600 bg-white border border-transparent rounded-md hover:bg-blue-50"
+            class="inline-block px-4 py-2 text-base font-medium text-blue-600 bg-white border border-transparent rounded-md  hover:bg-blue-50"
             >Message Jeff</a
           >
         </div>
@@ -69,9 +69,7 @@
       <div
         class="relative px-4 py-24 mx-auto max-w-7xl sm:py-32 sm:px-6 lg:px-8"
       >
-        <h1
-          class="text-5xl font-bold tracking-tight text-white lg:text-6xl"
-        >
+        <h1 class="text-5xl font-bold tracking-tight text-white lg:text-6xl">
           Jeff Lau
         </h1>
         <p class="max-w-3xl mt-6 text-xl text-gray-300">
@@ -98,9 +96,13 @@
         >
           <div class="relative flex-1 px-6 pt-16 pb-8 md:px-8">
             <div
-              class="absolute top-0 inline-block p-2 transform -translate-y-1/2 bg-blue-600 shadow-lg rounded-xl"
+              class="absolute top-0 inline-block p-2 transform -translate-y-1/2 bg-blue-600 shadow-lg  rounded-xl"
             >
-              <img :src="link.icon" class="w-auto h-14" />
+              <img
+                :src="'/img/' + link.icon + '.svg'"
+                v-bind:alt="link.icon"
+                class="w-auto h-14"
+              />
               <!-- <component
                 :is="link.icon"
                 class="w-6 h-6 text-white"
@@ -131,7 +133,7 @@
         id="selectedWork"
       >
         <h2
-          class="text-4xl font-extrabold tracking-tight text-gray-900 lg:text-5xl"
+          class="text-4xl font-extrabold tracking-tight text-gray-900  lg:text-5xl"
         >
           Selected Work
         </h2>
@@ -144,7 +146,7 @@
         class=" lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24"
       >
         <div
-          class="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0"
+          class="max-w-xl px-4 mx-auto  sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0"
         >
           <div>
             <div>
@@ -174,7 +176,7 @@
               <div class="mt-6">
                 <a
                   href="#"
-                  class="inline-flex px-4 py-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm pointer-events-none opacity-40 hover:bg-blue-700"
+                  class="inline-flex px-4 py-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm pointer-events-none  opacity-40 hover:bg-blue-700"
                 >
                   View Case Study
                 </a>
@@ -187,10 +189,10 @@
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-0">
           <div
-            class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full"
+            class="pl-4 -mr-48  sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full"
           >
             <img
-              class="w-full shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+              class="w-full shadow-xl  rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
               src="/assets/cgproprints.png"
               alt="CG Pro Prints Builder"
             />
@@ -204,7 +206,7 @@
         class=" lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24"
       >
         <div
-          class="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2"
+          class="max-w-xl px-4 mx-auto  sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2"
         >
           <div>
             <div>
@@ -237,7 +239,7 @@
                 <a
                   href="https://www.sensaria.com"
                   target="_blank"
-                  class="inline-flex px-4 py-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700"
+                  class="inline-flex px-4 py-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm  hover:bg-blue-700"
                 >
                   Visit Sensaria
                   <ExternalLinkIcon
@@ -251,10 +253,10 @@
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
           <div
-            class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full"
+            class="pr-4 -ml-48  sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full"
           >
             <img
-              class="w-full shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+              class="w-full shadow-xl  rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
               src="/assets/sensaria.png"
               alt="Sensaria Landing Page"
             />
@@ -268,7 +270,7 @@
         class=" lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24"
       >
         <div
-          class="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0"
+          class="max-w-xl px-4 mx-auto  sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0"
         >
           <div>
             <div>
@@ -296,7 +298,7 @@
                 <a
                   href="https://www.cgsignlab.com"
                   target="_blank"
-                  class="inline-flex px-4 py-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700"
+                  class="inline-flex px-4 py-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm  hover:bg-blue-700"
                 >
                   Visit CG Sign Lab
                   <ExternalLinkIcon
@@ -310,10 +312,10 @@
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-0">
           <div
-            class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full"
+            class="pl-4 -mr-48  sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full"
           >
             <img
-              class="w-full shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+              class="w-full shadow-xl  rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
               src="/assets/cgsignlab-builder-min.png"
               alt="CG Sign Lab Builder"
             />
@@ -327,7 +329,7 @@
         class=" lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24"
       >
         <div
-          class="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2"
+          class="max-w-xl px-4 mx-auto  sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2"
         >
           <div>
             <div>
@@ -359,7 +361,7 @@
                 <a
                   href="https://infinitedomain.herokuapp.com"
                   target="_blank"
-                  class="inline-flex px-4 py-2 mr-6 text-base font-medium text-white bg-gray-700 border border-transparent rounded-md shadow-sm hover:bg-gray-800"
+                  class="inline-flex px-4 py-2 mr-6 text-base font-medium text-white bg-gray-700 border border-transparent rounded-md shadow-sm  hover:bg-gray-800"
                 >
                   Visit Infinite Domain
                   <ExternalLinkIcon
@@ -370,7 +372,7 @@
                 <a
                   href="https://projectwalt.wordpress.com"
                   target="_blank"
-                  class="inline-flex px-4 py-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700"
+                  class="inline-flex px-4 py-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm  hover:bg-blue-700"
                 >
                   View Case Study
                   <ExternalLinkIcon
@@ -384,10 +386,10 @@
         </div>
         <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
           <div
-            class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full"
+            class="pr-4 -ml-48  sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full"
           >
             <img
-              class="w-full shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+              class="w-full shadow-xl  rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
               src="/assets/infinite-domain.png"
               alt="Infinite Domain Mobile Renders"
             />
@@ -399,7 +401,7 @@
   <!-- FOOTER -->
   <footer class="bg-gray-50">
     <div
-      class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-8"
+      class="px-4 py-12 mx-auto  max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-8"
     >
       <div class="flex justify-center space-x-6 md:order-2">
         <a
@@ -442,7 +444,7 @@ const supportLinks = [
     linkTxt: "See Work",
     description:
       "Jeff handles the entire product life-cycle, from user research to design to prototyping to testing and beyond. Jeff can craft thoughtful flows that reflect your business goals, build wireframes and prototypes using the latest tools, and run A/B tests with data-driven results.",
-    icon: "/static/img/pattern_1.svg",
+    icon: "pattern_1",
   },
   {
     name: "Web Developer",
@@ -450,7 +452,7 @@ const supportLinks = [
     linkTxt: "See Work",
     description:
       "With over 5 years of front-end experience, Jeff has a strong understanding of responsive design and is comfortable working with HTML, CSS, and Javascript to build beautiful, dynamic websites that capture the heart of your brand.",
-    icon: "/static/img/pattern_2.svg",
+    icon: "pattern_2",
   },
   {
     name: "Let's chat!",
@@ -458,7 +460,7 @@ const supportLinks = [
     linkTxt: "Send Message",
     description:
       "The Internet is a place of endless possibilities, and there's always something exciting to discover. Please reach out! You never know what you’ll find...",
-    icon: "/static/img/pattern_3.svg",
+    icon: "pattern_3",
   },
 ];
 const footerNavigation = [
